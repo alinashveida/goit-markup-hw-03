@@ -1,0 +1,228 @@
+:root{
+  --main-font:"Roboto" , sans-serif;
+  --secondary-font: "Raleway", sans-serif ;
+  --accent-color: #212121;
+  --secondary-color:#757575;
+}
+
+body{
+  font-family: var(--main-font);
+  color: var(--accent-color);
+}
+
+ul{
+  list-style: none;
+}
+
+ /* =======================COMPONENTS=========================*/
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+.logo-accent{
+    color: #2196F3;
+  }
+
+  .navigation-menu-link.is-current{
+    color: #2196F3;
+  }
+  /* =====================END COMPONENTS======================*/
+
+   /* =======================HEADER=========================*/
+
+   .logo{   
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:#000000;
+    text-decoration: none;
+  }
+
+.navigation-menu-link{
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: var(--accent-color);
+   text-decoration: none;
+}
+
+.navigation-menu-link:hover,
+.navigation-menu-link:focus,
+.contact-email:hover,
+.contact-email:focus,
+.contact-phone:hover,
+.contact-phone:focus{
+  color:  #2196F3;
+}
+
+.contact-phone,
+.contact-email{
+   font-style: normal;
+   font-family: var(--main-font);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: var(--secondary-color);
+   text-decoration: none;
+  }
+
+   /* =====================END HEADER======================*/
+
+   /* ========================HERO==========================*/
+.hero{
+    background-color: #2F303A;
+  }
+
+.title{
+   font-family:var(--main-font);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+  } 
+
+.button{
+  font-family: var(--main-font);
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.87;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: #FFFFFF;
+   background-color:#2196F3 ;
+  }
+/* =======================END HERO======================*/
+
+ /* ========================MAIN=======================*/
+.subtitle{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-advantages-title{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-advantages-text{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);  
+}
+
+
+
+.section-workers-title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-workers-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ========================END MAIN========================*/
+
+/* ==========================FOOTER=======================*/
+.footer{
+  background-color: #2F303A;
+}
+
+.address{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.footer-contact-phone,
+.footer-contact-email{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.logo-footer{
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+/* ========================END FOOTER======================*/
+/* ======================PORTFOLIO MAIN====================*/
+.button-portfolio:hover,
+.button-portfolio:focus{
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+
+.button-portfolio{
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.work-examples-title{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-examples-text{
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 1.87;
+ letter-spacing: 0.03em;
+ color:var(--secondary-color);
+}
+/* ========================END PORTFOLIO===================*/
