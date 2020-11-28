@@ -66,7 +66,7 @@ img{
    /* =======================HEADER=========================*/
    /* * {
      outline: 1px solid black;
-   } */
+   }  */
 
     .header{
       padding-top: 30px;
@@ -155,9 +155,7 @@ img{
 
   .hero .container{
     padding-top: 200px;
-    padding-right: 253px;
     padding-bottom: 200px;
-    padding-left: 253px;
   }
 
 .title{
@@ -169,6 +167,9 @@ img{
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: #FFFFFF;
+
+   margin-right: auto;
+   margin-left: auto;
    width: 696px;
    margin-bottom: 30px;
   } 
@@ -228,7 +229,8 @@ img{
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 10px;
+
+  margin-bottom: 10px;
 }
 
 .section-advantages-text{
