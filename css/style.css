@@ -250,7 +250,11 @@ img{
 }
 /* =====СОТРУДНИКИ===== */
 .section-workers{
-  background-color:#E5E5E5; ;
+  background-color:#E5E5E5; 
+}
+
+.section-workers>.container{
+  padding-top: 94px;
 }
 
 .section-workers-list{
