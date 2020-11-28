@@ -5,6 +5,7 @@
   --secondary-color:#757575;
 }
 
+
 body{
   font-family: var(--main-font);
   color: var(--accent-color);
@@ -24,6 +25,10 @@ ul{
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+img{
+  display: block;
 }
 
 .container{
@@ -59,6 +64,40 @@ ul{
   /* =====================END COMPONENTS======================*/
 
    /* =======================HEADER=========================*/
+   /* * {
+     outline: 1px solid black;
+   } */
+
+    .header{
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .header>.container{
+      display: flex;
+      align-items: center;
+    }
+
+    .navigation{
+      display: flex;
+      align-items: center;
+    }
+
+    .navigation-menu{
+      display: flex;
+      align-items: center; 
+    }
+
+    .header .logo{
+      margin-right: 93px;
+    }
+
+    .contact{
+      margin-left: auto;
+    }
+    .header .contact-email{
+      margin-right: 50px;
+    }
 
    .logo{   
     font-family: var(--secondary-font);
@@ -68,6 +107,10 @@ ul{
     letter-spacing: 0.03em;
     color:#000000;
     text-decoration: none;
+  }
+
+  .navigation-menu-item:not(:last-child){
+    margin-right: 50px;
   }
 
 .navigation-menu-link{
@@ -107,6 +150,14 @@ ul{
    /* ========================HERO==========================*/
 .hero{
     background-color: #2F303A;
+    /* padding-top: 283px; */
+  }
+
+  .hero .container{
+    padding-top: 200px;
+    padding-right: 253px;
+    padding-bottom: 200px;
+    padding-left: 253px;
   }
 
 .title{
@@ -118,6 +169,8 @@ ul{
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: #FFFFFF;
+   width: 696px;
+   margin-bottom: 30px;
   } 
 
 .button{
@@ -129,16 +182,44 @@ ul{
    letter-spacing: 0.06em;
    color: #FFFFFF;
    background-color:#2196F3 ;
+
+   min-width: 200px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display:block;
+   margin: 0 auto;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   /* border-radius: 3%; */
   }
 /* =======================END HERO======================*/
 
  /* ========================MAIN=======================*/
+/*=== ПРЕИМУЩЕСТВА ===*/
+ .section-advantages>.container{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-advantages-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-advantages-item{
+  width: 270px;
+}
+
+
 .subtitle{
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
 }
 
 .section-advantages-title{
@@ -147,6 +228,7 @@ ul{
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .section-advantages-text{
@@ -156,8 +238,28 @@ ul{
   letter-spacing: 0.03em;
   color: var(--secondary-color);  
 }
+/*======= О НАС =======*/
+.section-adout>.container{
+  padding-bottom: 94px;
+}
 
+.section-adout-list{
+  display: flex;
+  justify-content: space-between;
+}
+/* =====СОТРУДНИКИ===== */
+.section-workers{
+  background-color:#E5E5E5; ;
+}
 
+.section-workers-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-workers-img{
+  margin-bottom: 30px;
+}
 
 .section-workers-title{
   font-weight: 500;
@@ -165,6 +267,8 @@ ul{
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
 }
 
 .section-workers-text{
@@ -174,12 +278,22 @@ ul{
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+
+  margin-bottom: 30px;
+}
+
+.section-workers-item{
+  margin-bottom: 94px;
 }
 /* ========================END MAIN========================*/
 
 /* ==========================FOOTER=======================*/
 .footer{
   background-color: #2F303A;
+}
+.footer>.container{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address{
@@ -189,6 +303,14 @@ ul{
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+
+  display: block;
+  margin-bottom: 9px;
+}
+
+.footer-contact-email{
+  display: block;
+  margin-bottom: 9px;
 }
 
 .footer-contact-phone,
@@ -210,6 +332,10 @@ ul{
   letter-spacing: 0.03em;
   color:#FFFFFF;
   text-decoration: none;
+
+  display: block;
+  margin-bottom: 20px;
+
 }
 
 /* ========================END FOOTER======================*/
