@@ -64,9 +64,9 @@ img{
   /* =====================END COMPONENTS======================*/
 
    /* =======================HEADER=========================*/
-   /* * {
+    * {
      outline: 1px solid black;
-   }  */
+   }  
 
     .header{
       padding-top: 30px;
@@ -342,12 +342,27 @@ img{
 
 /* ========================END FOOTER======================*/
 /* ======================PORTFOLIO MAIN====================*/
+.main-footer>.container{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .button-portfolio:hover,
 .button-portfolio:focus{
   background-color: #2196F3;
   color: #FFFFFF;
 }
-
+ .buttons-list{
+   display: flex;
+   align-items: center;
+   /* margin-right: 282px; */
+   /* margin-left: 282px; */
+   justify-content: space-between;
+   width: 611px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+ }
 
 .button-portfolio{
   font-family: var(--main-font);
@@ -357,7 +372,15 @@ img{
   text-align: center;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  border-radius: 4px;
 }
+
 
 .work-examples-title{
   font-weight: bold;
