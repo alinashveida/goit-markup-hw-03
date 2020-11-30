@@ -64,13 +64,16 @@ img{
   /* =====================END COMPONENTS======================*/
 
    /* =======================HEADER=========================*/
-    /* * {
+    * {
      outline: 1px solid black;
-   }   */
+   }  
 
     .header{
       padding-top: 30px;
       padding-bottom: 30px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color:  #ececec;;
     }
 
     .header>.container{
@@ -297,11 +300,13 @@ img{
 /* ==========================FOOTER=======================*/
 .footer{
   background-color: #2F303A;
-}
-.footer>.container{
   padding-top: 60px;
   padding-bottom: 60px;
 }
+/* .footer>.container{
+  padding-top: 60px;
+  padding-bottom: 60px;
+} */
 
 .address{
   font-style: normal;
